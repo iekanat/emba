@@ -14,9 +14,11 @@ output: pdf_document
 >Arthur Conan Doyle, 1902
 
 
-IBM has recently made the [Jeopardy winning Watson](http://arstechnica.com/information-technology/2013/11/ibm-opens-jeopardy-winning-watson-to-developers-with-a-self-service-cloud/) available as a digital assistant for predictive analytics. [Watson Explorer](http://www.ibm.com/smarterplanet/us/en/ibmwatson/explorer.html) allows natural language queries on data to be answered by Watson. Currently Watson Explorer allows basic data manipulation, visualization, predictive modeling and reporting. Coincidentally these are also the topics of a recent R workshop taught here in ASU. 
+IBM has recently made the [Jeopardy winning Watson](http://arstechnica.com/information-technology/2013/11/ibm-opens-jeopardy-winning-watson-to-developers-with-a-self-service-cloud/) available as a digital assistant for predictive analytics. [Watson Explorer](http://www.ibm.com/smarterplanet/us/en/ibmwatson/explorer.html) allows natural language queries on data to be answered by Watson. 
 
-In this tutorial and the following assignment we will go over visualization examples covered in the R workshop. We will see how the same results can be achieved with Watson Explorer, and understand if IBM's pride in Watson Explorer is earned or is just over confidence.
+Currently Watson Explorer allows basic data manipulation, visualization, predictive modeling and reporting. Coincidentally these are also the topics of a recent R workshop taught here in ASU by yours truly. 
+
+In this tutorial and the following assignment we will go over visualization examples covered in the R workshop. We will see how the same results can be achieved with Watson Explorer, and understand if IBM's pride in Watson Explorer is well deserved or just over confidence.
 
 ## Get into Watson Analytics
 
@@ -123,6 +125,8 @@ When happy with the visualization click the collect button ![collect button](fig
 > Arthur Conan Doyle, 1887
 
 
-As the quote above signifies, is IBM's pride in Watson justified or is it a bit overblown? While Watson Explorer has all the functionality needed. Currently Watson is not very good at understanding what is needed. Make no mistake though, Watson will not stay this way for long. IBM is giving out these free trials precisely for this reason. Watson will improve at a rapid pace with the data collected from trial users and become only more useful. 
+Is IBM's pride in Watson justified or is it a bit overblown? While Watson Explorer has all the functionality needed. Currently Watson is not very good at understanding what is needed. Make no mistake though, Watson will not stay this way for long. 
+
+IBM is giving out these free trials to improve Watson's knowledge of predictive analytics. Watson will improve at a rapid pace with the data collected from trial users and only become more useful. 
 
 While you may not feel threatened by Watson Explorer now. Consider what IBM is trying to achieve in the light of the recent [article on predictive analytics algorithm that performed better than human analysts](http://www.fastcodesign.com/3052528/evidence/this-algorithm-is-better-at-predicting-human-behavior-than-humans-are?utm_source) in a competition. If you can teach machine learning to a machine, can it replace human analysts?
