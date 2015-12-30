@@ -1,6 +1,6 @@
 ---
 title: "Elementary, My Dear Watson"
-author: "Irfan Kanat"
+author: "CIS591 - Business Intelligence"
 date: "10/21/2015"
 output: pdf_document
 ---
@@ -50,11 +50,11 @@ After a brief period your data should appear in the lower half of the screen (Fi
 
 ![Data card](figures/data.png)
 
-If you want to take a look at the data, click the upper part of the card and click the refine button ![refine button](figures/refine1.png). This will produce a spreadsheet like interface where you can select subsets of the data, or filter it according to some criteria. I won't be covering data manipulation as part of this tutorial, but it is always a good idea to know what is in your data before pushing forward.
+If you want to take a look at the data, click the upper part of the card and click the refine button ![refine button](figures/refine1.png). This will produce a spreadsheet like interface where you can select subsets of the data, or filter it according to some criteria. Data manipulation won't be covered as part of this tutorial, but it is always a good idea to know what is in your data before pushing forward.
 
 ## Visualizations
 
-Let us start exploring the data visually. We will ask Watson to plot the data in certain ways, and I mean ask literally. Watson's natural language processing capabilities will aid it to understand what we mean. Watson is still learning, so replicating everything may be a bit of a challenge.
+Let us start exploring the data visually. We will ask Watson to plot the data in certain ways, literally. Watson's natural language processing capabilities will aid it to understand what we mean. Watson is still learning, so replicating everything may be a bit of a challenge.
 
 Going back to your data card in Figure 4. Click the top half and this time click the explore button ![explore button](figures/explore1.png).
 
@@ -90,7 +90,7 @@ Let us click the text box, next to the magnifying glass ![ask a question](figure
 
 ![Not very helpful Watson...](figures/scat0.png)
 
-Figure 9 shows what I choose. As you see, the results indicate a linear trend. I wonder if a factor not in the plot may be driving the effects. Let us investigate the effect of promotion type. Click ![Columns](figures/columns1.png) and under color by select add a column. Select **promotion**. Voila!
+Figure 9 shows what we choose. As you see, the results indicate a linear trend. There is a possibility that a factor not in the plot may be driving the effects. Let us investigate the effect of promotion type. Click ![Columns](figures/columns1.png) and under color by select add a column. Select **promotion**. Voila!
 
 ![See, this is what I wanted Watson](figures/scat1.png)
 
@@ -100,11 +100,11 @@ When you are satisfied click the arrow to the side of the screen for a new quest
 
 Let us say we want to know how sales is related to market. We would use a bar chart. Bar charts are useful to explore the averages of continuous variables over different values of categorical variables.  Let us type in "How do the values of **Sales in Thousands** compare by **MarketID**?" 
 
-Watson will give us some alternatives, let us select the one with bars. Preferably with a question that is similar to our query. We can change the variables around a bit until we are satisfied. Figure 11 is what I was trying to get.
+Watson will give us some alternatives, let us select the one with bars. Preferably with a question that is similar to our query. We can change the variables around a bit until we are satisfied. Figure 11 shows the desired output.
 
 ![Bar Charts](figures/bar0.png)
 
-We can add a third dimension by altering the colors, I added **Promotion** and now we know which promotion works in which market.
+We can add a third dimension by altering the colors. **Promotion** can serve as the third dimension here, and now we know which promotion works in which market.
 
 ![Fancier!](figures/bar1.png)
 
