@@ -1,7 +1,6 @@
 ---
 title: "Elementary, My Dear Watson"
 author: "CIS591 - Business Intelligence"
-date: "10/21/2015"
 output: pdf_document
 ---
 
@@ -26,7 +25,7 @@ Currently IBM is offering free trials of the Watson environment. Let us get enro
 
 ![First Look](figures/tryit.png)
 
-After you log in, you will see a screen like the one depicted below. You can see in Figure 2 that, it has four panes on top right of the screen: Explore, Predict, Assemble, and Refine. These correspond respectively to, descriptive visualizations, model fitting, reporting and data manipulation. The core of every predictive analytics endeavor is represented here. The bottom part which is partially concealed is reserved for data sets you are currently working on.
+After you log in, you will see a screen like the one depicted below. You can see in Figure 2 that, it has four panes (now five with the addition of Social Media) on top right of the screen: Explore, Predict, Assemble, and Refine. These correspond respectively to, descriptive visualizations, model fitting, reporting and data manipulation. The core of every predictive analytics endeavor is represented here. The bottom part which is partially concealed in the figure is reserved for data sets you are currently working on.
 
 ![Main](figures/main.png)
 
@@ -109,6 +108,52 @@ We can add a third dimension by altering the colors. **Promotion** can serve as 
 ![Fancier!](figures/bar1.png)
 
 When happy with the visualization click the collect button ![collect button](figures/collect1.png) on the lower right of the screen.
+
+To return to main menu, use the pull down menu at the top of the screen and select Welcome. You will need to do this to move on to predictions.
+
+![back to the main menu](figures/back.png)
+
+## Predictions
+
+What we have done so far was to visualize relations between variables to make it easier to understand for us, pesky humans. The value of analytics however is utilizing machine learning and statistics to uncover relations with a degree of certainty that basic visualizations can not match. Here we will take a first stab.
+
+Assuming you are back in the main menu. Predict is an option listed on the blue bar towards the upper part of the screen. Click the predict ![predict button](figures/predict1.png).
+
+Next step is to select a dataset to use for our predictions. Select Analyze Test Market Campaigns dataset.
+
+![Select a dataset](figures/preddata.png)
+
+You will be asked to name the predict process so you can access it later. Give it a name like Predict Sales or something similar that will make it easy to identify later.
+
+More importantly though, in this screen you will be asked to select the target for predictions. We can select up to 5 targets. Select, "Sales in Thousands" from the pull down menu and remove any other targets Watson may have selected on its own.
+
+![Select a target](figures/sales.png)
+
+What Watson produces next is a model of Sales. Displayed prominently in the center of the screen is a spiral. This spiral shows the explanatory power of variables in the model. Closer to the center, the more influential the variables become.
+
+![Sales Models](figures/predicted0.png)
+
+To the right are cards describing the relationship between targets and predictors. If you click on the top card ("Market Size Drives Sales in Thousands") you will be presented with a summary of the insight gained from this variable (We do not do so well in medium sized markets). You can also check the statistical details here. Close the card when done by clicking the x on the top right of the card.
+
+![Market Size](figures/mktsize.png)
+
+To the left of the screen, the option to select between more complex or more comprehensible models is presented. By default, Watson fits very basic statistical models and the results may not provide very interesting insights.
+Let us experiment with this option to explore different kinds of models. 
+
+Select the combination option on the left. You can see the cards and the spiral are updated. You may notice a decision tree among the cards on the right. Click the decision tree ("The decision tree shows..."). The decision tree provides some rules to identify most profitable markets. The tabs on this card provide further insight.
+
+![Decision Tree](figures/decisiontree.png)
+
+To return to main menu, use the pull down menu at the top of the screen and select Welcome.
+
+## Wrapping It Up
+
+The result of any analytics endeavor should be to present the results in an easily accessible way. For this purpose you can assemble reports ![Assemble Button](figures/assemble1.png).
+
+This is more art than science and is very hard to communicate in a short tutorial. Experiment with Watson Explorer until you are satisfied with results. Below is a one page report we generated for this exercise.
+
+![Assemble](figures/tab1.png)
+
 
 ## Implications for Future
 

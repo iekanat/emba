@@ -1,6 +1,6 @@
 ---
 title: "Elementary, My Dear Watson"
-author: "CIS591 - Business Intelligence"
+author: "Irfan Kanat"
 date: "10/21/2015"
 output: pdf_document
 ---
@@ -23,9 +23,13 @@ The dataset is on Contracts that were negotiated.
 
 1 - Relation between the opportunity amount and client size by revenue, to discover where the money is.
 
+![](figures/A1.png)
+
 2 - Let us see how we good we are in realizing opportunities across different client sizes. Modify the plot from the first question to reflect the how we fare in capturing opportunities from different types of clients (You should have a plot that has three variables visualized).
 
-3 -  Suggest an interesting question for the assignment data set.  Address the question using two different features of IBM Watson e.g. data exploration and prediction modeling.  Print out and submit solution(s) to your question.  
+![](figures/A2.png)
+
+![](figures/A2a.png)
 
 
 
